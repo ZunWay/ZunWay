@@ -2,10 +2,19 @@
     height: 50px;
 }
 
+.logoRiot > img{
+    height: 50px;
+}
 
 /* todo: mettre le header en fixed en haut de la page */
 header {
     background-color: black;
+    width: 100%;
+    position:fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 a {
@@ -13,9 +22,15 @@ a {
     color: black;
 }
 
-.logoValorant {
-    background-color: black;
-    width: 100%;
-    position:fixed;
-    z-index: 1;
+h1 {
+    margin: 0;
+    color: red;
+}
+
+.fontHeader {
+    color: wheat;
+}
+
+.fontHeader:hover {
+    color: rgb(203, 185, 153);
 }
