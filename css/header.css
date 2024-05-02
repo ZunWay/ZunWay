@@ -1,0 +1,14 @@
+.logoValorant > img{
+    height: 50px;
+}
+
+
+/* todo: mettre le header en fixed en haut de la page */
+header {
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
