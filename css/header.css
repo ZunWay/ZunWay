@@ -28,9 +28,9 @@ h1 {
 }
 
 .fontHeader {
-    color: wheat;
+    color: #fff;
 }
 
 .fontHeader:hover {
-    color: rgb(203, 185, 153);
+    color: #ccc;
 }
